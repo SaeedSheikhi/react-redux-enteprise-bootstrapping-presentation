@@ -57,8 +57,8 @@ export default class Presentation extends React.Component {
         transitionDuration={500}
         theme={theme}
       >
-        <Slide bgColor="secondary">
-          <Image src={images.logo} width={800} />
+        <Slide >
+          <Image src={images.logo} width={200} />
         </Slide>
 
         <Slide transition={['zoom']} bgColor="primary">
